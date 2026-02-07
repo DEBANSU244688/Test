@@ -1,0 +1,83 @@
+🎨 CSS Theme Configuration for Career Path Optimizer
+Here's the complete CSS theme setup for the project:
+
+📋 Tailwind Configuration (tailwind.config.ts)
+Theme Structure:
+
+Dark Mode: Class-based ("class")
+Content: All React components and pages
+Prefix: Default (none)
+Color System:
+
+css
+/* CSS Custom Properties (HSL-based) */
+--border: hsl(var(--border))
+--input: hsl(var(--input))
+--ring: hsl(var(--ring))
+--background: hsl(var(--background))
+--foreground: hsl(var(--foreground))
+ 
+/* Semantic Colors */
+--primary: hsl(var(--primary))
+--secondary: hsl(var(--secondary))
+--destructive: hsl(var(--destructive))
+--muted: hsl(var(--muted))
+--accent: hsl(var(--accent))
+--card: hsl(var(--card))
+Border Radius:
+
+lg: var(--radius)
+md: calc(var(--radius) - 2px)
+sm: calc(var(--radius) - 4px)
+🌗 Global Styles (globals.css)
+Dark Mode Overrides:
+
+css
+.dark {
+  background-color: #1f2937 !important;
+  color: #f3f4f6 !important;
+}
+ 
+.dark .bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #1f2937, #111827) !important;
+}
+🎭 Theme System (theme-provider.tsx)
+Theme Types:
+
+"light" - Light mode
+"dark" - Dark mode
+"system" - Follows OS preference
+Storage:
+
+Key: "vite-ui-theme"
+Persists user preference in localStorage
+🔘 Theme Toggle (theme-toggle.tsx)
+Visual Design:
+
+Light State: Sun icon visible, Moon hidden
+Dark State: Moon icon visible, Sun hidden
+Transition: Smooth rotation and scale animations
+Accessibility: Screen reader support with sr-only text
+🎨 Color Palette
+Primary Colors Used:
+
+Blue: #3b82f6 (primary actions, links)
+Green: #10b981 (success states)
+Red: #ef4444 (error states)
+Yellow: #f59e0b (warnings)
+Slate: Various shades for text and backgrounds
+Gradients:
+
+Light: from-slate-50 to-slate-100
+Dark: from-slate-900 to-slate-800
+📱 Responsive Design
+Container:
+
+Centered with 2rem padding
+Custom breakpoint at 1400px (2xl)
+Component System:
+
+Built on Shadcn UI design tokens
+Consistent spacing and typography
+Dark/light mode variants for all components
+The theme provides a modern, professional appearance with excellent dark mode support and smooth transitions between themes.
