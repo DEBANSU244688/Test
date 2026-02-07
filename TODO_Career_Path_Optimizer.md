@@ -6,59 +6,59 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 ---
 
 ## 🎯 Phase 1: Project Setup & Foundation
-- [ ] 1.1 Initialize project structure (frontend & backend)
-- [ ] 1.2 Setup Git workflow and branching strategy
-- [ ] 1.3 Configure development environment
-- [ ] 1.4 Install core dependencies
+- [x] 1.1 Initialize project structure (frontend & backend)
+- [x] 1.2 Setup Git workflow and branching strategy
+- [x] 1.3 Configure development environment
+- [x] 1.4 Install core dependencies
   - Frontend: Next.js, TypeScript, Tailwind CSS, Shadcn/UI
   - Backend: FastAPI, Python
   - ML/AI: Sentence-BERT, LangChain, Gensim
-- [ ] 1.5 Setup Docker configuration
-- [ ] 1.6 Create basic project documentation
+- [x] 1.5 Setup Docker configuration
+- [x] 1.6 Create basic project documentation
 
 ---
 
 ## 🎨 Phase 2: Frontend Development
 
 ### 2.1 Core UI Setup
-- [ ] 2.1.1 Initialize Next.js with TypeScript
-- [ ] 2.1.2 Configure Tailwind CSS and design system
-- [ ] 2.1.3 Setup Shadcn/UI components
-- [ ] 2.1.4 Implement dark mode with light mode toggle
-- [ ] 2.1.5 Create color system (Use CSS.txt)
+- [x] 2.1.1 Initialize Next.js with TypeScript
+- [x] 2.1.2 Configure Tailwind CSS and design system
+- [x] 2.1.3 Setup Shadcn/UI components
+- [x] 2.1.4 Implement dark mode with light mode toggle
+- [x] 2.1.5 Create color system (Use CSS.txt)
 
 ### 2.2 Page Components
-- [ ] 2.2.1 Landing/Entry Screen
+- [x] 2.2.1 Landing/Entry Screen
   - Hero section with value proposition
   - Resume upload CTA
   - 3-step explainer with icons
-- [ ] 2.2.2 Dashboard Layout
+- [x] 2.2.2 Dashboard Layout
   - Top-level navigation (5 sections)
   - Responsive design
   - Card-based modular layout
-- [ ] 2.2.3 Resume Analysis Screen
+- [x] 2.2.3 Resume Analysis Screen
   - Resume upload component (PDF/DOCX)
   - Job description input/selection
   - Processing status indicator
-- [ ] 2.2.4 Match Score Display
+- [x] 2.2.4 Match Score Display
   - Circular match score visualization
   - Skill/Tool/Experience breakdown
   - "Why this score?" explanation panel
-- [ ] 2.2.5 Skill Heatmap Dashboard
+- [x] 2.2.5 Skill Heatmap Dashboard
   - Interactive grid/radial heatmap
   - Color-coded skill levels (Green/Yellow/Red)
   - Hover-based tooltips with explanations
   - Demand-weighted visualization
-- [ ] 2.2.6 Learning Roadmap View
+- [x] 2.2.6 Learning Roadmap View
   - Month-wise timeline (6 months)
   - Skill milestones
   - Certification mapping
   - Progress tracking UI
-- [ ] 2.2.7 AI Career Counsellor Interface
+- [x] 2.2.7 AI Career Counsellor Interface
   - Chat interface with mentor tone
   - Contextual insights panel
   - Conversation history
-- [ ] 2.2.8 Certification ROI Comparison
+- [x] 2.2.8 Certification ROI Comparison
   - Comparison cards for courses
   - ROI and time-to-skill metrics
   - Best-choice highlighting
@@ -80,10 +80,10 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 ## ⚙️ Phase 3: Backend Development
 
 ### 3.1 API Foundation
-- [ ] 3.1.1 Setup FastAPI project structure
-- [ ] 3.1.2 Configure CORS and middleware
-- [ ] 3.1.3 Create API documentation (OpenAPI)
-- [ ] 3.1.4 Implement error handling and logging (Loguru)
+- [x] 3.1.1 Setup FastAPI project structure
+- [x] 3.1.2 Configure CORS and middleware
+- [x] 3.1.3 Create API documentation (OpenAPI)
+- [x] 3.1.4 Implement error handling and logging (Loguru)
 - [ ] 3.1.5 Setup JWT authentication
 
 ### 3.2 Resume Processing Module
@@ -130,7 +130,7 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 
 ### 4.3 LLM Integration (AI Career Counsellor)
 - [ ] 4.3.1 Setup LangChain framework
-- [ ] 4.3.2 Configure LLM (GPT API key = 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)
+- [ ] 4.3.2 Configure LLM (GPT API key = set via environment variable (OPENAI_API_KEY))
 - [ ] 4.3.3 Create prompt templates for career guidance
 - [ ] 4.3.4 Implement conversational interface backend
 - [ ] 4.3.5 Build explanation generation system
@@ -194,14 +194,14 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 
 ### 7.1 Backend APIs
 - [ ] 7.1.1 POST /api/resume/upload - Resume file upload
-- [ ] 7.1.2 POST /api/resume/parse - Extract text from resume
+- [x] 7.1.2 POST /api/resume/parse - Extract text from resume
 - [ ] 7.1.3 POST /api/skills/extract - Extract skills from resume
-- [ ] 7.1.4 POST /api/match/score - Calculate match score
+- [x] 7.1.4 POST /api/match/score - Calculate match score
 - [ ] 7.1.5 POST /api/gap/analyze - Analyze skill gaps
-- [ ] 7.1.6 GET /api/heatmap/data - Generate heatmap data
-- [ ] 7.1.7 POST /api/counsellor/chat - AI career counsellor endpoint
-- [ ] 7.1.8 GET /api/roadmap/generate - Generate learning roadmap
-- [ ] 7.1.9 GET /api/recommendations/courses - Get course recommendations
+- [x] 7.1.6 GET /api/heatmap/data - Generate heatmap data
+- [x] 7.1.7 POST /api/counsellor/chat - AI career counsellor endpoint
+- [x] 7.1.8 GET /api/roadmap/generate - Generate learning roadmap
+- [x] 7.1.9 GET /api/recommendations/courses - Get course recommendations
 - [ ] 7.1.10 POST /api/job/parse - Parse job description
 
 ### 7.2 Frontend API Client
@@ -217,7 +217,7 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 ### 8.1 Backend Testing
 - [ ] 8.1.1 Write unit tests for resume parser
 - [ ] 8.1.2 Write unit tests for skill extraction
-- [ ] 8.1.3 Write unit tests for semantic matching
+- [x] 8.1.3 Write unit tests for semantic matching
 - [ ] 8.1.4 Test API endpoints with Postman
 - [ ] 8.1.5 Integration tests for full pipeline
 - [ ] 8.1.6 Performance testing (< 5 seconds)
