@@ -94,17 +94,17 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 - [ ] 3.2.5 Build resume data cleaning module
 
 ### 3.3 Skill Extraction Engine
-- [ ] 3.3.1 Create skill extraction logic
-- [ ] 3.3.2 Implement skill normalization
+- [x] 3.3.1 Create skill extraction logic
+- [x] 3.3.2 Implement skill normalization
 - [ ] 3.3.3 Build tool-to-skill mapping system
   - Example: PyTorch → Deep Learning → ML → AI
 - [ ] 3.3.4 Create skill ontology database
 - [ ] 3.3.5 Implement confidence scoring
 
 ### 3.4 Job Description Processing
-- [ ] 3.4.1 Create JD parser and skill extractor
-- [ ] 3.4.2 Build job role templates
-- [ ] 3.4.3 Implement JD requirement extraction
+- [x] 3.4.1 Create JD parser and skill extractor
+- [x] 3.4.2 Build job role templates
+- [x] 3.4.3 Implement JD requirement extraction
 
 ---
 
@@ -120,13 +120,13 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 - [ ] 4.1.7 Calculate resume-JD match scores
 
 ### 4.2 Skill Gap Analysis
-- [ ] 4.2.1 Build skill comparison algorithm
-- [ ] 4.2.2 Integrate market demand dataset
-- [ ] 4.2.3 Implement gap severity scoring
-- [ ] 4.2.4 Create missing skill identification
-- [ ] 4.2.5 Identify weak skill areas
-- [ ] 4.2.6 Detect future-proof skills
-- [ ] 4.2.7 Generate skill heatmap data structure
+- [x] 4.2.1 Build skill comparison algorithm
+- [x] 4.2.2 Integrate market demand dataset
+- [x] 4.2.3 Implement gap severity scoring
+- [x] 4.2.4 Create missing skill identification
+- [x] 4.2.5 Identify weak skill areas
+- [x] 4.2.6 Detect future-proof skills
+- [x] 4.2.7 Generate skill heatmap data structure
 
 ### 4.3 LLM Integration (AI Career Counsellor)
 - [ ] 4.3.1 Setup LangChain framework
@@ -181,12 +181,12 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 ## 📊 Phase 6: Market Intelligence
 
 ### 6.1 Market Demand Data
-- [ ] 6.1.1 Create skill demand dataset structure
-- [ ] 6.1.2 Implement data scraping pipeline (optional)
-- [ ] 6.1.3 Build skill frequency analyzer
-- [ ] 6.1.4 Create role-skill demand matrices
-- [ ] 6.1.5 Setup periodic data updates
-- [ ] 6.1.6 Process data with Pandas/NumPy
+- [x] 6.1.1 Create skill demand dataset structure
+- [x] 6.1.2 Implement data scraping pipeline (optional)
+- [x] 6.1.3 Build skill frequency analyzer
+- [x] 6.1.4 Create role-skill demand matrices
+- [x] 6.1.5 Setup periodic data updates
+- [x] 6.1.6 Process data with Pandas/NumPy
 
 ---
 
@@ -195,14 +195,24 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 ### 7.1 Backend APIs
 - [ ] 7.1.1 POST /api/resume/upload - Resume file upload
 - [x] 7.1.2 POST /api/resume/parse - Extract text from resume
+<<<<<<< HEAD
 - [ ] 7.1.3 POST /api/skills/extract - Extract skills from resume
 - [x] 7.1.4 POST /api/match/score - Calculate match score
 - [ ] 7.1.5 POST /api/gap/analyze - Analyze skill gaps
+=======
+- [x] 7.1.3 POST /api/skills/extract - Extract skills from resume
+- [x] 7.1.4 POST /api/match/score - Calculate match score
+- [x] 7.1.5 POST /api/gap/analyze - Analyze skill gaps
+>>>>>>> origin/Main
 - [x] 7.1.6 GET /api/heatmap/data - Generate heatmap data
 - [x] 7.1.7 POST /api/counsellor/chat - AI career counsellor endpoint
 - [x] 7.1.8 GET /api/roadmap/generate - Generate learning roadmap
 - [x] 7.1.9 GET /api/recommendations/courses - Get course recommendations
+<<<<<<< HEAD
 - [ ] 7.1.10 POST /api/job/parse - Parse job description
+=======
+- [x] 7.1.10 POST /api/job/parse - Parse job description
+>>>>>>> origin/Main
 
 ### 7.2 Frontend API Client
 - [ ] 7.2.1 Create API client utilities
@@ -216,7 +226,11 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 
 ### 8.1 Backend Testing
 - [ ] 8.1.1 Write unit tests for resume parser
+<<<<<<< HEAD
 - [ ] 8.1.2 Write unit tests for skill extraction
+=======
+- [x] 8.1.2 Write unit tests for skill extraction
+>>>>>>> origin/Main
 - [x] 8.1.3 Write unit tests for semantic matching
 - [ ] 8.1.4 Test API endpoints with Postman
 - [ ] 8.1.5 Integration tests for full pipeline
@@ -232,7 +246,7 @@ Building a Resume-to-Job Matcher & Skill Gap Analyzer using GenAI, LLMs, and sem
 ### 8.3 AI/ML Testing
 - [ ] 8.3.1 Test embedding generation accuracy
 - [ ] 8.3.2 Validate similarity scoring
-- [ ] 8.3.3 Test skill gap detection
+- [x] 8.3.3 Test skill gap detection
 - [ ] 8.3.4 Validate LLM outputs
 - [ ] 8.3.5 Test recommendation quality
 

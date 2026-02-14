@@ -10,6 +10,12 @@ from app.api.heatmap import router as heatmap_router
 from app.api.roadmap import router as roadmap_router
 from app.api.counsellor import router as counsellor_router
 from app.api.recommendations import router as recommendations_router
+<<<<<<< HEAD
+=======
+from app.api.job import router as job_router
+from app.api.skills import router as skills_router
+from app.api.gap import router as gap_router
+>>>>>>> origin/Main
 
 app = FastAPI(
     title="Career Path Optimizer API",
@@ -47,6 +53,12 @@ app.include_router(heatmap_router, prefix="/api")
 app.include_router(roadmap_router, prefix="/api")
 app.include_router(counsellor_router, prefix="/api")
 app.include_router(recommendations_router, prefix="/api")
+<<<<<<< HEAD
+=======
+app.include_router(job_router, prefix="/api")
+app.include_router(skills_router, prefix="/api")
+app.include_router(gap_router, prefix="/api")
+>>>>>>> origin/Main
 
 
 @app.get("/")
